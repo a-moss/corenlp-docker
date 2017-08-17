@@ -6,7 +6,7 @@ RUN apk add --update --no-cache \
 	 unzip \
 	 wget
 
-RUN wget http://nlp.stanford.edu/software/stanford-corenlp-full-2015-12-09.zip
+RUN wget https://storage.googleapis.com/corenlp22/stanford-corenlp-full-2015-12-09.zip
 RUN unzip stanford-corenlp-full-2015-12-09.zip && \
 	rm stanford-corenlp-full-2015-12-09.zip
 
